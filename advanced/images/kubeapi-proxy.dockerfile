@@ -1,5 +1,5 @@
 # Image: k8spatterns/kubeapi-proxy
-FROM alpine
+FROM alpine:3.15
 ENV KUBECTL_VERSION=v1.9.1
 RUN apk update \
  && apk add curl \
