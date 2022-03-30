@@ -1,5 +1,5 @@
 # Image name: k8spatterns/curl-jq
-FROM alpine
+FROM alpine:3.15.3
 RUN apk add --update \
     curl \
     jq \
