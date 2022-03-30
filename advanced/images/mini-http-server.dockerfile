@@ -1,6 +1,6 @@
 # Image name: k8spatterns/mini-http-server
 # Possibly one of the simplest HTTP Server
-FROM alpine
+FROM alpine:3.15.3
 
 # Message to send out as response on any request
 ENV MESSAGE="Welcome to Kubernetes Patterns !"
