@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 ENV KUBECTL_VERSION=v1.9.1
 RUN apk update \
  && apk add curl \
